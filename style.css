@@ -214,22 +214,16 @@ margin-right: 2px;
 
 /* Media queries */
 
-@media screen and (max-width: 425px) and (min-width: 380px) {
+@media screen and (max-width: 1200px) and (min-width: 500px) {
     section{
         display: block;
     }
     article, aside{
         width : 100%;
     }
-    header{
-        display: block;
-    }
-    /*#titre_principal, nav{
-        width: 100;
-    }*/
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
     section{
         display: block;
     }
