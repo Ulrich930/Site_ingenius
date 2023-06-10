@@ -210,3 +210,47 @@ margin-right: 2px;
 #mes_amis h1{
     position:center;
 }
+
+
+/* Media queries */
+
+@media screen and (max-width: 425px) and (min-width: 380px) {
+    section{
+        display: block;
+    }
+    article, aside{
+        width : 100%;
+    }
+    header{
+        display: block;
+    }
+    /*#titre_principal, nav{
+        width: 100;
+    }*/
+}
+
+@media screen and (max-width: 380px) {
+    section{
+        display: block;
+    }
+    article, aside{
+        width : 100%;
+    }
+    header{
+        display: block;
+    }
+    .bouton_rouge{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 165px;
+    background: rgba(112, 12, 12, 0.808);
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+    }
+}
